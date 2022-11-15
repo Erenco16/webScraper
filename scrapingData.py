@@ -1,9 +1,6 @@
 import hafeleScraping
 import xlsxwriter
 
-#username : ankastre.bilgi@gmail.com
-#password : f5pi5vs
-
 def main():
     credentials = {
         "username": "",
