@@ -1,10 +1,14 @@
-import hafeleScraping
+import hafeleScraping as hafeleScraping
 import xlsxwriter
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 def main():
     credentials = {
-        "username": "",
-        "password": ""
+        "username": os.getenv('HAFELE_USERNAME'),
+        "password": os.getenv('HAFELE_PASSWORD')
     }
 
     #asking for user to enter the data they would like the info of.
@@ -96,4 +100,6 @@ def main():
         j=0
         k=k+1
     Workbook.close()
-main()
+
+if __name__ == "__main__":
+    main()
