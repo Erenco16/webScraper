@@ -1,5 +1,5 @@
 # Web Scraper
-Created a web scraper in order to scrape the data from our supplier's (Hafele.com.tr) website.
+Created a web scraper in order to scrape the data from our supplier's (online.hafele.com.tr) website.
 
 I used Pandas to read an excel file which will user provide.
 First, I manage the login process using Selenium.
